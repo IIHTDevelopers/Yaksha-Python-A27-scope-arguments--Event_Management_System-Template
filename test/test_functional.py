@@ -5,7 +5,7 @@ import os
 # Add path for TestUtils and import the event management system
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from test.TestUtils import TestUtils
-from event_management_system import *
+from skeleton import *
 
 class TestEventManagementSystem(unittest.TestCase):
     def setUp(self):
